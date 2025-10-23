@@ -8,13 +8,13 @@ def create_card(rank:str,suite:str):
         card_dict["velue"]=(vel_letaer[rank])
     return card_dict
 
-# def compare_card(p1_card:dict, p2_card:dict):
-#     if p1_card["velue"] > p2_card['velue']:
-#         return'p1'
-#     elif p1_card["velue"] < p2_card['velue']:
-#         return 'p2'
-#     elif p1_card["velue"] == p2_card['velue']:
-#         return "WAR"
+def compare_card(p1_card:dict, p2_card:dict):
+    if p1_card["velue"] > p2_card['velue']:
+        return'p1'
+    elif p1_card["velue"] < p2_card['velue']:
+        return 'p2'
+    elif p1_card["velue"] == p2_card['velue']:
+        return "WAR"
 
 
 def create_deck():
