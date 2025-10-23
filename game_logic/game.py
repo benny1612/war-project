@@ -12,14 +12,15 @@ def create_player(name:str="ai"):
 
 def init_game():
     
-
-    return create_player()
-        def init-game2():
+    a={}
+    return a 
+        
         
     
     
     
     
 
-print(init_game())
-# play_round(p1:dict,p2:dict)
+
+def play_round(p1:dict,p2:dict):
+    return None
